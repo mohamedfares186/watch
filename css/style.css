@@ -103,3 +103,43 @@ nav {
   color: var(--text-color);
   font-weight: 500;
 }
+
+.letter-o {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-weight: 900;
+  font-size: 40rem;
+  color: var(--btn-color);
+}
+
+.container .hero-img {
+  position: absolute;
+  width: 100%;
+  max-width: 400px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.container h4 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 3rem;
+  font-weight: 900;
+  color: var(--black);
+}
+
+.hero-btn {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, calc(-50% + 220px));
+  color: var(--text-color);
+  background-color: var(--white);
+  padding: 1rem 2rem;
+  border-radius: 1rem;
+}
