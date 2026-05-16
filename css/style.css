@@ -1,0 +1,16 @@
+:root {
+  --text-color: #000;
+  --max-width: 1200px;
+}
+
+@font-face {
+  font-family: "omegact";
+  src: url("../fonts/OmegaCTRegular.ttf");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "omegact", arial, sans-serif;
+}
